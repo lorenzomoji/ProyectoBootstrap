@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Mojify</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sidebar.css">
 </head>
+
 <body>
     <header style="background:whitesmoke">
         <div class="row">
@@ -20,14 +23,14 @@
             </div>
             <div class="col-lg-3">
                 <div class="btn-group" style="margin-top:11px">
-                        <button type="button" class="btn btn-primary" data-toggle="dropdown">
+                    <button type="button" class="btn btn-primary" data-toggle="dropdown">
                           Regístrate como <span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu" role="menu">
+                    <ul class="dropdown-menu" role="menu">
                         <li><a href="registrar.html">Usuario</a></li>
                         <li><a href="registrar.html">Empresa</a></li>
                         <li><a href="registrar.html">Particular</a></li>
-                        </ul>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -46,24 +49,43 @@
         <div class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
-                <div class="input-group">
+                <nav>
+                    <ul class="pagination pagination-lg">
+                        <li><a href="#">&laquo;</a></li>
+                        <li><a href="#">Palma</a></li>
+                        <li><a href="#">Inca</a></li>
+                        <li><a href="#">Sencelles</a></li>
+                        <li><a href="#">Marratxi</a></li>
+                        <li><a href="#">Valldemossa</a></li>
+                        <li><a href="#">Cala Millor</a></li>
+                        <li><a href="#">Sa Pobla</a></li>
+                        <li><a href="#">Arenal</a></li>
+                        <li><a href="#">Santa Ponsa</a></li>
+                        <li><a href="#">Magaluf</a></li>
+                        <li><a href="#">Portals</a></li>
+                        <li><a href="#">Sóller</a></li>
+                        <li><a href="#">Andratx</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                </nav>
+                <!-- <div class="input-group">
                     <span class="input-group-addon">Lugar</span>
                     <input type="text" class="form-control" placeholder="¿Dónde quieres ir?">
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="row">
             <br>
             <div class="col-lg-5"></div>
-            <div class="col-lg-2">        
-               <button type="button" class="btn btn-primary center-block">Buscar</button>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-primary center-block">Buscar</button>
             </div>
         </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="row">
             <div class="col-lg-4">
                 <img src="chofer.jpg" width="320" height="220" class="img-rounded"></img>
@@ -79,11 +101,23 @@
             </div>
         </div>
     </div>
+    <!-- <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Toggle Menu</p>
+                    <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
     <br>
     <br>
+    <script src="js/app.js" charset="utf-8"></script>
     <script src="js/header.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
