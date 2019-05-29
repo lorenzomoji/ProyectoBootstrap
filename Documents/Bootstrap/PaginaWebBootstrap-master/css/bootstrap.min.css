@@ -28,7 +28,7 @@ footer {
     position: static;
     bottom: 0;
     width: 100%;
-    height: 200px;
+    height: 130px;
 }
 
 article,
@@ -8070,17 +8070,17 @@ button.close {
 }
 
 #email {
-    margin-top: 81px;
+    margin-top: 55px;
     color: white;
 }
 
 #copyright {
-    margin-top: 60px;
+    margin-top: 33px;
     color: white;
 }
 
 #telf {
-    margin-top: 60px;
+    margin-top: 33px;
     color: white;
 }
 

@@ -304,3 +304,97 @@
   #password {
       max-width: 400px;
   }
+  
+  #headtarifas {
+      position: relative;
+  }
+  
+  #alberto {
+      width: 1120px;
+      height: 600px;
+  }
+  
+  #alberto-peque {
+      width: 260px;
+      height: 160px;
+      margin-top: 30px;
+  }
+  
+  #cristina {
+      width: 1120px;
+      height: 600px;
+  }
+  
+  #cristina-peque {
+      width: 260px;
+      height: 160px;
+      margin-top: 30px;
+  }
+  
+  #jesus {
+      width: 1120px;
+      height: 600px;
+  }
+  
+  #jesus-peque {
+      width: 260px;
+      height: 160px;
+      margin-top: 30px;
+  }
+  
+  #laura {
+      width: 1120px;
+      height: 600px;
+  }
+  
+  #laura-peque {
+      width: 260px;
+      height: 160px;
+      margin-top: 30px;
+  }
+  
+  #gomez {
+      width: 1120px;
+      height: 600px;
+  }
+  
+  #gomez-peque {
+      width: 260px;
+      height: 160px;
+      margin-top: 30px;
+  }
+  
+  #mariano {
+      width: 1120px;
+      height: 600px;
+  }
+  
+  #mariano-peque {
+      width: 260px;
+      height: 160px;
+      margin-top: 30px;
+  }
+  
+  #inicio {
+      margin-top: 20px;
+  }
+  
+  #conductores {
+      margin-top: 20px;
+  }
+  
+  #usuarios {
+      margin-top: 20px;
+  }
+  
+  #tarifas_conductor {
+      margin-top: 39px;
+  }
+  
+  #historia_text {
+      width: 450px;
+  }
+  
+  #footer_somos {
+      margin-top: 800px;
+  }
