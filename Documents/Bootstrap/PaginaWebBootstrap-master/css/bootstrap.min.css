@@ -8092,5 +8092,17 @@ img:hover {
     width: 100%;
 }
 
+#card-header {
+    -webkit-box-shadow: 24px 19px 38px 6px rgba(230, 230, 247, 1);
+    -moz-box-shadow: 24px 19px 38px 6px rgba(230, 230, 247, 1);
+    box-shadow: 24px 19px 38px 6px rgba(230, 230, 247, 1);
+}
+
+#card-body {
+    -webkit-box-shadow: 24px 19px 38px 6px rgba(230, 230, 247, 1);
+    -moz-box-shadow: 24px 19px 38px 6px rgba(230, 230, 247, 1);
+    box-shadow: 24px 19px 38px 6px rgba(230, 230, 247, 1);
+}
+
 
 /*# sourceMappingURL=bootstrap.min.css.map */
